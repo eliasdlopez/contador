@@ -2,18 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return <Counter />
-  }
-}
-
-class Counter extends Component {
-  
-  // constructor() {
-  //   super()
-  //   this.handleClick = this.handleClick.bind(this)
-  // }
-
   state = {
     count: 0
   }
@@ -30,8 +18,6 @@ class Counter extends Component {
             <button id="inc" onClick={this.handleClick}>Incrementa</button>
             </div>)
   }
- 
 }
-
 
 export default App;
